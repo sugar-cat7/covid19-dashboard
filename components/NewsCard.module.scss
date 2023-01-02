@@ -1,0 +1,10 @@
+.NewsCard {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+  }
+  row-gap: 15px;
+}
