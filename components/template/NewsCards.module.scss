@@ -1,5 +1,9 @@
 .NewsCards {
   .DisplayCard {
     height: 1000px;
+    overflow-y: scroll;
+    flex-direction: column;
+    display: flex;
+    gap: 32px;
   }
 }

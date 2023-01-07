@@ -1,0 +1,11 @@
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px 32px;
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: 1fr;
+  }
+  .DisplayCard {
+    height: 1000px;
+  }
+}

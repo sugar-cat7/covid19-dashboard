@@ -11,6 +11,7 @@
       cursor: pointer;
       transition: border-color 0.25s;
     }
+    margin-right: 28px;
   }
   .SelectedButton {
     background-color: #394457;
@@ -24,5 +25,14 @@
     align-items: center;
     height: 80%;
     transition: 1s;
+  }
+  .SelectHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // place-items: center;
+    margin-bottom: 28px;
+    .SelectedBox {
+      color: #394457;
+    }
   }
 }

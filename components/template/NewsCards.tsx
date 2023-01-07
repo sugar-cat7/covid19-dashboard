@@ -3,9 +3,10 @@ import { DisplayCard } from "../DisplayCard";
 import { NewsCard } from "../NewsCard";
 import useSWR from "swr";
 import styles from "./NewsCards.module.scss";
+import { News } from "../../types/types";
 
 export const NewsCards: React.FC = () => {
-  const { data, error, isLoading } = useSWR("/news/num", fetcher, {
+  const { data, error, isLoading } = useSWR<News[]>("/news", fetcher, {
     revalidateIfStale: false,
     revalidateOnFocus: false,
     revalidateOnReconnect: false,
@@ -13,11 +14,13 @@ export const NewsCards: React.FC = () => {
   if (isLoading) {
     return <>aaa</>;
   }
-  console.log(data);
+  if (!data) {
+    return <>not found</>;
+  }
   return (
     <div className={styles.NewsCards}>
       <DisplayCard style={styles.DisplayCard}>
-        <NewsCard />
+        <NewsCard news={data} />
       </DisplayCard>
     </div>
   );

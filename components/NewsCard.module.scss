@@ -1,6 +1,6 @@
 .NewsCard {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  justify-content: space-between;
   img {
     height: 70px;
     width: 70px;
