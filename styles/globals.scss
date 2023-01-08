@@ -103,12 +103,7 @@ a {
   }
 }
 
-main
-  > header
-  > details
-  > div
-  > div.Home_Select__JT215.css-b62m3t-container
-  > div {
+main > header > details > div > div.Home_Select__JT215 > div {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.25);
   box-shadow: none;
@@ -118,14 +113,14 @@ main
     box-shadow: none;
   }
 }
-main > header > details > div > div.Home_Select__JT215.css-b62m3t-container {
+main > header > details > div > div.Home_Select__JT215 {
   box-shadow: none;
   &:hover {
     background-color: transparent;
     border-color: rgba(255, 255, 255, 0.8);
   }
 }
-
+#react-select-2-listbox,
 #react-select-3-listbox {
   background-color: #2f2f2f;
   color: white;
@@ -142,15 +137,7 @@ main > header > details > div > div.Home_Select__JT215.css-b62m3t-container {
   }
 }
 
-main
-  > header
-  > details
-  > div
-  > div.Home_Select__JT215.css-b62m3t-container
-  > div
-  > div.css-3w2yfm-ValueContainer
-  > div
-  > div {
+main > header > details > div > div.Home_Select__JT215 > div > div > div > div {
   cursor: pointer;
   &:hover {
     background-color: rgba(255, 255, 255, 0);
