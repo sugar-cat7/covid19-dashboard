@@ -102,3 +102,57 @@ a {
     color-scheme: dark;
   }
 }
+
+main
+  > header
+  > details
+  > div
+  > div.Home_Select__JT215.css-b62m3t-container
+  > div {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: none;
+  &:hover {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: none;
+  }
+}
+main > header > details > div > div.Home_Select__JT215.css-b62m3t-container {
+  box-shadow: none;
+  &:hover {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+#react-select-3-listbox {
+  background-color: #2f2f2f;
+  color: white;
+  div {
+    div {
+      &:active {
+        background-color: rgba(255, 255, 255, 0.154);
+      }
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.154);
+      }
+    }
+  }
+}
+
+main
+  > header
+  > details
+  > div
+  > div.Home_Select__JT215.css-b62m3t-container
+  > div
+  > div.css-3w2yfm-ValueContainer
+  > div
+  > div {
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}

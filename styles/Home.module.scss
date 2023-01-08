@@ -1,5 +1,13 @@
 .Header {
   margin-bottom: 32px;
+  summary {
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.163);
+    }
+    width: 100px;
+    font-size: 20px;
+  }
   .Detail {
     padding: 32px;
     border: 1px solid #dadce0;
@@ -28,6 +36,8 @@
         font-size: 16px;
         border: 1px solid #dadce0;
         cursor: pointer;
+        background-color: hsl(0, 0%, 90%);
+        color: #202124;
       }
     }
   }

@@ -90,6 +90,14 @@ export default function Home() {
                 }));
               }}
               className={styles.Select}
+              theme={(theme) => ({
+                ...theme,
+                borderRadius: 0,
+                colors: {
+                  ...theme.colors,
+                  primary25: "neutral0",
+                },
+              })}
             />
             <div>検索日</div>
             <div className={styles.DatePickers}>

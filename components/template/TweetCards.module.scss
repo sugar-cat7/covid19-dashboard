@@ -1,10 +1,25 @@
 .TweetCards {
+  @media screen and (max-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 32px;
+    grid-auto-flow: dense;
+  }
+  @media screen and (max-width: 700px) {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 4px 8px;
+    div {
+      width: 100%;
+    }
+  }
   .DisplayCard {
     height: 1000px;
     overflow-y: scroll;
     flex-direction: column;
     display: flex;
     gap: 32px;
+
     div {
       width: 100%;
     }
