@@ -1,3 +1,37 @@
+.Header {
+  margin-bottom: 32px;
+  .Detail {
+    padding: 32px;
+    border: 1px solid #dadce0;
+    background: #202124;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+    .DatePickers {
+      margin-top: 8px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 32px;
+      margin-bottom: 32px;
+    }
+    .Select {
+      color: black;
+      z-index: 999;
+      margin-bottom: 24px;
+    }
+    .SubmitButtonContainer {
+      display: flex;
+      justify-content: right;
+      .SubmitButton {
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 16px;
+        border: 1px solid #dadce0;
+        cursor: pointer;
+      }
+    }
+  }
+}
 .main {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -6,6 +40,39 @@
     grid-template-columns: 1fr;
   }
   .DisplayCard {
-    height: 1000px;
+    height: 600px;
+    .CardsContainer {
+      overflow-y: scroll;
+      height: 500px;
+    }
+    // overflow-y: scroll;
+  }
+}
+
+.SelectHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  // place-items: center;
+  margin-bottom: 28px;
+  .SelectedBox {
+    color: #394457;
+  }
+  .SelectedButton {
+    background-color: #394457;
+  }
+
+  button {
+    color: #e8eaed;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 1rem;
+    padding: 2px 5px;
+    background: none;
+    &:hover {
+      background-color: #394457;
+      cursor: pointer;
+      transition: border-color 0.25s;
+    }
+    margin-right: 28px;
   }
 }

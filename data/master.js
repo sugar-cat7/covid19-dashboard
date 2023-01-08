@@ -1,790 +1,1118 @@
 export const selectOptions = [
   {
-    value: "日本",
-    label: "日本",
-  },
-  {
-    value: "中国",
-    label: "中国",
-  },
-  {
-    value: "香港",
-    label: "香港",
-  },
-  {
-    value: "マカオ",
-    label: "マカオ",
-  },
-  {
-    value: "韓国",
-    label: "韓国",
-  },
-  {
-    value: "台湾",
-    label: "台湾",
-  },
-  {
-    value: "シンガポール",
-    label: "シンガポール",
-  },
-  {
-    value: "ネパール",
-    label: "ネパール",
-  },
-  {
-    value: "タイ",
-    label: "タイ",
-  },
-  {
-    value: "ベトナム",
-    label: "ベトナム",
-  },
-  {
-    value: "マレーシア",
-    label: "マレーシア",
-  },
-  {
-    value: "その他",
-    label: "その他",
-  },
-  {
-    value: "米国",
+    value: "USA",
     label: "米国",
   },
   {
-    value: "カナダ",
-    label: "カナダ",
-  },
-  {
-    value: "フランス",
-    label: "フランス",
-  },
-  {
-    value: "ドイツ",
-    label: "ドイツ",
-  },
-  {
-    value: "カンボジア",
-    label: "カンボジア",
-  },
-  {
-    value: "スリランカ",
-    label: "スリランカ",
-  },
-  {
-    value: "アラブ首長国連邦",
-    label: "アラブ首長国連邦",
-  },
-  {
-    value: "フィンランド",
-    label: "フィンランド",
-  },
-  {
-    value: "フィリピン",
-    label: "フィリピン",
-  },
-  {
-    value: "インド",
-    label: "インド",
-  },
-  {
-    value: "イタリア",
-    label: "イタリア",
-  },
-  {
-    value: "英国",
-    label: "英国",
-  },
-  {
-    value: "ロシア",
-    label: "ロシア",
-  },
-  {
-    value: "スウェーデン",
-    label: "スウェーデン",
-  },
-  {
-    value: "スペイン",
-    label: "スペイン",
-  },
-  {
-    value: "ベルギー",
-    label: "ベルギー",
-  },
-  {
-    value: "エジプト",
-    label: "エジプト",
-  },
-  {
-    value: "イラン",
-    label: "イラン",
-  },
-  {
-    value: "イスラエル",
-    label: "イスラエル",
-  },
-  {
-    value: "レバノン",
-    label: "レバノン",
-  },
-  {
-    value: "クウェート",
-    label: "クウェート",
-  },
-  {
-    value: "バーレーン",
-    label: "バーレーン",
-  },
-  {
-    value: "オマーン",
-    label: "オマーン",
-  },
-  {
-    value: "アフガニスタン",
-    label: "アフガニスタン",
-  },
-  {
-    value: "イラク",
-    label: "イラク",
-  },
-  {
-    value: "アルジェリア",
-    label: "アルジェリア",
-  },
-  {
-    value: "オーストリア",
-    label: "オーストリア",
-  },
-  {
-    value: "スイス",
-    label: "スイス",
-  },
-  {
-    value: "クロアチア",
-    label: "クロアチア",
-  },
-  {
-    value: "ブラジル",
-    label: "ブラジル",
-  },
-  {
-    value: "ジョージア",
-    label: "ジョージア",
-  },
-  {
-    value: "パキスタン",
-    label: "パキスタン",
-  },
-  {
-    value: "北マケドニア",
-    label: "北マケドニア",
-  },
-  {
-    value: "ギリシア",
-    label: "ギリシア",
-  },
-  {
-    value: "ノルウェー",
-    label: "ノルウェー",
-  },
-  {
-    value: "ルーマニア",
-    label: "ルーマニア",
-  },
-  {
-    value: "デンマーク",
-    label: "デンマーク",
-  },
-  {
-    value: "エストニア",
-    label: "エストニア",
-  },
-  {
-    value: "オランダ",
-    label: "オランダ",
-  },
-  {
-    value: "サンマリノ",
-    label: "サンマリノ",
-  },
-  {
-    value: "リトアニア",
-    label: "リトアニア",
-  },
-  {
-    value: "ナイジェリア",
-    label: "ナイジェリア",
-  },
-  {
-    value: "アイスランド",
+    value: "ISL",
     label: "アイスランド",
   },
   {
-    value: "アゼルバイジャン",
-    label: "アゼルバイジャン",
-  },
-  {
-    value: "ベラルーシ",
-    label: "ベラルーシ",
-  },
-  {
-    value: "ニュージーランド",
-    label: "ニュージーランド",
-  },
-  {
-    value: "メキシコ",
-    label: "メキシコ",
-  },
-  {
-    value: "カタール",
-    label: "カタール",
-  },
-  {
-    value: "ルクセンブルク",
-    label: "ルクセンブルク",
-  },
-  {
-    value: "モナコ",
-    label: "モナコ",
-  },
-  {
-    value: "エクアドル",
-    label: "エクアドル",
-  },
-  {
-    value: "アイルランド",
+    value: "IRL",
     label: "アイルランド",
   },
   {
-    value: "チェコ",
-    label: "チェコ",
+    value: "AZE",
+    label: "アゼルバイジャン",
   },
   {
-    value: "アルメニア",
-    label: "アルメニア",
+    value: "AFG",
+    label: "アフガニスタン",
   },
   {
-    value: "ドミニカ共和国",
-    label: "ドミニカ共和国",
+    value: "ARE",
+    label: "アラブ首長国連邦",
   },
   {
-    value: "インドネシア",
-    label: "インドネシア",
+    value: "DZA",
+    label: "アルジェリア",
   },
   {
-    value: "アンドラ",
-    label: "アンドラ",
-  },
-  {
-    value: "ポルトガル",
-    label: "ポルトガル",
-  },
-  {
-    value: "ラトビア",
-    label: "ラトビア",
-  },
-  {
-    value: "セネガル",
-    label: "セネガル",
-  },
-  {
-    value: "サウジアラビア",
-    label: "サウジアラビア",
-  },
-  {
-    value: "ヨルダン",
-    label: "ヨルダン",
-  },
-  {
-    value: "アルゼンチン",
+    value: "ARG",
     label: "アルゼンチン",
   },
   {
-    value: "チリ",
-    label: "チリ",
+    value: "ABW",
+    label: "アルバ",
   },
   {
-    value: "ウクライナ",
-    label: "ウクライナ",
-  },
-  {
-    value: "モロッコ",
-    label: "モロッコ",
-  },
-  {
-    value: "チュニジア",
-    label: "チュニジア",
-  },
-  {
-    value: "ハンガリー",
-    label: "ハンガリー",
-  },
-  {
-    value: "リヒテンシュタイン",
-    label: "リヒテンシュタイン",
-  },
-  {
-    value: "ポーランド",
-    label: "ポーランド",
-  },
-  {
-    value: "スロベニア",
-    label: "スロベニア",
-  },
-  {
-    value: "パレスチナ",
-    label: "パレスチナ",
-  },
-  {
-    value: "ボスニア・ヘルツェゴビナ",
-    label: "ボスニア・ヘルツェゴビナ",
-  },
-  {
-    value: "南アフリカ",
-    label: "南アフリカ",
-  },
-  {
-    value: "ブータン",
-    label: "ブータン",
-  },
-  {
-    value: "カメルーン",
-    label: "カメルーン",
-  },
-  {
-    value: "トーゴ",
-    label: "トーゴ",
-  },
-  {
-    value: "セルビア",
-    label: "セルビア",
-  },
-  {
-    value: "スロバキア",
-    label: "スロバキア",
-  },
-  {
-    value: "バチカン",
-    label: "バチカン",
-  },
-  {
-    value: "コロンビア",
-    label: "コロンビア",
-  },
-  {
-    value: "ペルー",
-    label: "ペルー",
-  },
-  {
-    value: "コスタリカ",
-    label: "コスタリカ",
-  },
-  {
-    value: "マルタ",
-    label: "マルタ",
-  },
-  {
-    value: "パラグアイ",
-    label: "パラグアイ",
-  },
-  {
-    value: "バングラデシュ",
-    label: "バングラデシュ",
-  },
-  {
-    value: "モルドバ",
-    label: "モルドバ",
-  },
-  {
-    value: "ブルガリア",
-    label: "ブルガリア",
-  },
-  {
-    value: "モルディブ",
-    label: "モルディブ",
-  },
-  {
-    value: "ブルネイ",
-    label: "ブルネイ",
-  },
-  {
-    value: "キプロス",
-    label: "キプロス",
-  },
-  {
-    value: "アルバニア",
+    value: "ALB",
     label: "アルバニア",
   },
   {
-    value: "ブルキナファソ",
-    label: "ブルキナファソ",
+    value: "ARM",
+    label: "アルメニア",
   },
   {
-    value: "モンゴル",
-    label: "モンゴル",
+    value: "AIA",
+    label: "アンギラ",
   },
   {
-    value: "パナマ",
-    label: "パナマ",
-  },
-  {
-    value: "ボリビア",
-    label: "ボリビア",
-  },
-  {
-    value: "ホンジュラス",
-    label: "ホンジュラス",
-  },
-  {
-    value: "コンゴ民主共和国",
-    label: "コンゴ民主共和国",
-  },
-  {
-    value: "ジャマイカ",
-    label: "ジャマイカ",
-  },
-  {
-    value: "トルコ",
-    label: "トルコ",
-  },
-  {
-    value: "コートジボワール",
-    label: "コートジボワール",
-  },
-  {
-    value: "ガイアナ",
-    label: "ガイアナ",
-  },
-  {
-    value: "キューバ",
-    label: "キューバ",
-  },
-  {
-    value: "トリニダード・トバゴ",
-    label: "トリニダード・トバゴ",
-  },
-  {
-    value: "スーダン",
-    label: "スーダン",
-  },
-  {
-    value: "ギニア",
-    label: "ギニア",
-  },
-  {
-    value: "エチオピア",
-    label: "エチオピア",
-  },
-  {
-    value: "ケニア",
-    label: "ケニア",
-  },
-  {
-    value: "グアテマラ",
-    label: "グアテマラ",
-  },
-  {
-    value: "ベネズエラ",
-    label: "ベネズエラ",
-  },
-  {
-    value: "ガボン",
-    label: "ガボン",
-  },
-  {
-    value: "ガーナ",
-    label: "ガーナ",
-  },
-  {
-    value: "アンティグア・バーブーダ",
-    label: "アンティグア・バーブーダ",
-  },
-  {
-    value: "カザフスタン",
-    label: "カザフスタン",
-  },
-  {
-    value: "ウルグアイ",
-    label: "ウルグアイ",
-  },
-  {
-    value: "ナミビア",
-    label: "ナミビア",
-  },
-  {
-    value: "セーシェル",
-    label: "セーシェル",
-  },
-  {
-    value: "セントルシア",
-    label: "セントルシア",
-  },
-  {
-    value: "ルワンダ",
-    label: "ルワンダ",
-  },
-  {
-    value: "エスワティニ",
-    label: "エスワティニ",
-  },
-  {
-    value: "スリナム",
-    label: "スリナム",
-  },
-  {
-    value: "モーリタニア",
-    label: "モーリタニア",
-  },
-  {
-    value: "コソボ",
-    label: "コソボ",
-  },
-  {
-    value: "コンゴ共和国",
-    label: "コンゴ共和国",
-  },
-  {
-    value: "セントビンセント及びグレナディーン諸島",
-    label: "セントビンセント及びグレナディーン諸島",
-  },
-  {
-    value: "中央アフリカ",
-    label: "中央アフリカ",
-  },
-  {
-    value: "ウズベキスタン",
-    label: "ウズベキスタン",
-  },
-  {
-    value: "赤道ギニア",
-    label: "赤道ギニア",
-  },
-  {
-    value: "リベリア",
-    label: "リベリア",
-  },
-  {
-    value: "タンザニア",
-    label: "タンザニア",
-  },
-  {
-    value: "ソマリア",
-    label: "ソマリア",
-  },
-  {
-    value: "ベナン",
-    label: "ベナン",
-  },
-  {
-    value: "バハマ",
-    label: "バハマ",
-  },
-  {
-    value: "モンテネグロ",
-    label: "モンテネグロ",
-  },
-  {
-    value: "バルバドス",
-    label: "バルバドス",
-  },
-  {
-    value: "キルギス",
-    label: "キルギス",
-  },
-  {
-    value: "ザンビア",
-    label: "ザンビア",
-  },
-  {
-    value: "ジブチ",
-    label: "ジブチ",
-  },
-  {
-    value: "ガンビア",
-    label: "ガンビア",
-  },
-  {
-    value: "モーリシャス",
-    label: "モーリシャス",
-  },
-  {
-    value: "フィジー",
-    label: "フィジー",
-  },
-  {
-    value: "エルサルバドル",
-    label: "エルサルバドル",
-  },
-  {
-    value: "チャド",
-    label: "チャド",
-  },
-  {
-    value: "ニカラグア",
-    label: "ニカラグア",
-  },
-  {
-    value: "マダガスカル",
-    label: "マダガスカル",
-  },
-  {
-    value: "ハイチ",
-    label: "ハイチ",
-  },
-  {
-    value: "アンゴラ",
+    value: "AGO",
     label: "アンゴラ",
   },
   {
-    value: "ニジェール",
-    label: "ニジェール",
+    value: "ATG",
+    label: "アンティグア・バーブーダ",
   },
   {
-    value: "パプアニューギニア",
-    label: "パプアニューギニア",
+    value: "AND",
+    label: "アンドラ",
   },
   {
-    value: "ジンバブエ",
-    label: "ジンバブエ",
+    value: "YEM",
+    label: "イエメン",
   },
   {
-    value: "カーボベルデ",
-    label: "カーボベルデ",
+    value: "ISR",
+    label: "イスラエル",
   },
   {
-    value: "エリトリア",
-    label: "エリトリア",
+    value: "ITA",
+    label: "イタリア",
   },
   {
-    value: "東ティモール",
-    label: "東ティモール",
+    value: "IRQ",
+    label: "イラク",
   },
   {
-    value: "ウガンダ",
+    value: "IRN",
+    label: "イラン",
+  },
+  {
+    value: "IND",
+    label: "インド",
+  },
+  {
+    value: "IDN",
+    label: "インドネシア",
+  },
+  {
+    value: "WAK",
+    label: "ウェーク島",
+  },
+  {
+    value: "UGA",
     label: "ウガンダ",
   },
   {
-    value: "シリア",
-    label: "シリア",
+    value: "UKR",
+    label: "ウクライナ",
   },
   {
-    value: "モザンビーク",
-    label: "モザンビーク",
+    value: "UZB",
+    label: "ウズベキスタン",
   },
   {
-    value: "グレナダ",
-    label: "グレナダ",
+    value: "URY",
+    label: "ウルグアイ",
   },
   {
-    value: "ベリーズ",
-    label: "ベリーズ",
+    value: "GBR",
+    label: "英国",
   },
   {
-    value: "ミャンマー",
-    label: "ミャンマー",
+    value: "IOT",
+    label: "英領インド洋地域",
   },
   {
-    value: "ドミニカ国",
-    label: "ドミニカ国",
+    value: "VGB",
+    label: "英領バージン諸島",
   },
   {
-    value: "ラオス",
-    label: "ラオス",
+    value: "ECU",
+    label: "エクアドル",
   },
   {
-    value: "ギニアビサウ",
-    label: "ギニアビサウ",
+    value: "EGY",
+    label: "エジプト",
   },
   {
-    value: "マリ",
-    label: "マリ",
+    value: "EST",
+    label: "エストニア",
   },
   {
-    value: "セントクリストファー・ネービス",
-    label: "セントクリストファー・ネービス",
+    value: "SWZ",
+    label: "エスワティニ",
   },
   {
-    value: "リビア",
-    label: "リビア",
+    value: "ETH",
+    label: "エチオピア",
   },
   {
-    value: "シエラレオネ",
-    label: "シエラレオネ",
+    value: "ERI",
+    label: "エリトリア",
   },
   {
-    value: "ブルンジ",
-    label: "ブルンジ",
+    value: "SLV",
+    label: "エルサルバドル",
   },
   {
-    value: "ボツワナ",
-    label: "ボツワナ",
+    value: "AUS",
+    label: "オーストラリア",
   },
   {
-    value: "マラウイ",
-    label: "マラウイ",
+    value: "AUT",
+    label: "オーストリア",
   },
   {
-    value: "南スーダン共和国",
-    label: "南スーダン共和国",
+    value: "OMN",
+    label: "オマーン",
   },
   {
-    value: "サントメ・プリンシペ",
-    label: "サントメ・プリンシペ",
+    value: "NLD",
+    label: "オランダ",
   },
   {
-    value: "イエメン共和国",
-    label: "イエメン共和国",
+    value: "ANT",
+    label: "オランダ領アンティル",
   },
   {
-    value: "タジキスタン共和国",
-    label: "タジキスタン共和国",
+    value: "CPV",
+    label: "カーボヴェルデ",
   },
   {
-    value: "コモロ連合",
-    label: "コモロ連合",
+    value: "KAZ",
+    label: "カザフスタン",
   },
   {
-    value: "レソト王国",
-    label: "レソト王国",
+    value: "KAS",
+    label: "カシミール",
   },
   {
-    value: "ソロモン諸島",
-    label: "ソロモン諸島",
+    value: "QAT",
+    label: "カタール",
   },
   {
-    value: "マーシャル諸島共和国",
-    label: "マーシャル諸島共和国",
+    value: "CAN",
+    label: "カナダ",
   },
   {
-    value: "バヌアツ共和国",
-    label: "バヌアツ共和国",
+    value: "CMR",
+    label: "カメルーン",
   },
   {
-    value: "サモア独立国",
-    label: "サモア独立国",
+    value: "KHM",
+    label: "カンボジア",
   },
   {
-    value: "ミクロネシア連邦",
-    label: "ミクロネシア連邦",
+    value: "GHA",
+    label: "ガーナ",
   },
   {
-    value: "キリバス共和国",
-    label: "キリバス共和国",
+    value: "GUY",
+    label: "ガイアナ",
   },
   {
-    value: "パラオ共和国",
-    label: "パラオ共和国",
+    value: "GAB",
+    label: "ガボン",
   },
   {
-    value: "トンガ王国",
-    label: "トンガ王国",
+    value: "GMB",
+    label: "ガンビア",
   },
   {
-    value: "北朝鮮",
+    value: "PRK",
     label: "北朝鮮",
   },
   {
-    value: "ツバル",
+    value: "MKD",
+    label: "北マケドニア",
+  },
+  {
+    value: "MNP",
+    label: "北マリアナ諸島",
+  },
+  {
+    value: "CYP",
+    label: "キプロス",
+  },
+  {
+    value: "CUB",
+    label: "キューバ",
+  },
+  {
+    value: "KIR",
+    label: "キリバス",
+  },
+  {
+    value: "KGZ",
+    label: "キルギス",
+  },
+  {
+    value: "GIN",
+    label: "ギニア",
+  },
+  {
+    value: "GNB",
+    label: "ギニアビサウ",
+  },
+  {
+    value: "GRC",
+    label: "ギリシャ",
+  },
+  {
+    value: "KWT",
+    label: "クウェート",
+  },
+  {
+    value: "COK",
+    label: "クック諸島",
+  },
+  {
+    value: "CXR",
+    label: "クリスマス島",
+  },
+  {
+    value: "HRV",
+    label: "クロアチア",
+  },
+  {
+    value: "GTM",
+    label: "グアテマラ",
+  },
+  {
+    value: "GLP",
+    label: "グアドループ島",
+  },
+  {
+    value: "GUM",
+    label: "グアム",
+  },
+  {
+    value: "GRL",
+    label: "グリーンランド",
+  },
+  {
+    value: "GRD",
+    label: "グレナダ",
+  },
+  {
+    value: "CYM",
+    label: "ケイマン諸島",
+  },
+  {
+    value: "KEN",
+    label: "ケニア",
+  },
+  {
+    value: "CIV",
+    label: "コートジボワール",
+  },
+  {
+    value: "CCK",
+    label: "ココス諸島",
+  },
+  {
+    value: "CRI",
+    label: "コスタリカ",
+  },
+  {
+    value: "KSV",
+    label: "コソボ",
+  },
+  {
+    value: "COM",
+    label: "コモロ連合",
+  },
+  {
+    value: "COL",
+    label: "コロンビア",
+  },
+  {
+    value: "COG",
+    label: "コンゴ共和国",
+  },
+  {
+    value: "COD",
+    label: "コンゴ民主共和国",
+  },
+  {
+    value: "SAU",
+    label: "サウジアラビア",
+  },
+  {
+    value: "WSM",
+    label: "サモア",
+  },
+  {
+    value: "STP",
+    label: "サントメ・プリンシペ",
+  },
+  {
+    value: "SPM",
+    label: "サンピエール島・ミクロン島",
+  },
+  {
+    value: "SMR",
+    label: "サンマリノ",
+  },
+  {
+    value: "ZMB",
+    label: "ザンビア",
+  },
+  {
+    value: "SLE",
+    label: "シエラレオネ",
+  },
+  {
+    value: "SYR",
+    label: "シリア",
+  },
+  {
+    value: "SGP",
+    label: "シンガポール",
+  },
+  {
+    value: "DJI",
+    label: "ジブチ",
+  },
+  {
+    value: "SJM",
+    label: "スバールバル諸島・ヤンマイエン諸島",
+  },
+  {
+    value: "JAM",
+    label: "ジャマイカ",
+  },
+  {
+    value: "GEO",
+    label: "ジョージア",
+  },
+  {
+    value: "JON",
+    label: "ジョンストン島",
+  },
+  {
+    value: "ZWE",
+    label: "ジンバブエ",
+  },
+  {
+    value: "SDN",
+    label: "スーダン",
+  },
+  {
+    value: "CHE",
+    label: "スイス",
+  },
+  {
+    value: "SWE",
+    label: "スウェーデン",
+  },
+  {
+    value: "CHI",
+    label: "チャネル諸島",
+  },
+  {
+    value: "ESP",
+    label: "スペイン",
+  },
+  {
+    value: "SUR",
+    label: "スリナム",
+  },
+  {
+    value: "LKA",
+    label: "スリランカ",
+  },
+  {
+    value: "SVK",
+    label: "スロバキア",
+  },
+  {
+    value: "SVN",
+    label: "スロベニア",
+  },
+  {
+    value: "SYC",
+    label: "セイシェル",
+  },
+  {
+    value: "GNQ",
+    label: "赤道ギニア",
+  },
+  {
+    value: "SEN",
+    label: "セネガル",
+  },
+  {
+    value: "SRB",
+    label: "セルビア",
+  },
+  {
+    value: "KNA",
+    label: "セントクリストファー・ネイビス",
+  },
+  {
+    value: "VCT",
+    label: "セントビンセント及びグレナディーン諸島",
+  },
+  {
+    value: "SHN",
+    label: "セントヘレナ島",
+  },
+  {
+    value: "LCA",
+    label: "セントルシア",
+  },
+  {
+    value: "SOM",
+    label: "ソマリア",
+  },
+  {
+    value: "SLB",
+    label: "ソロモン諸島",
+  },
+  {
+    value: "TCA",
+    label: "タークス諸島・カイコス諸島",
+  },
+  {
+    value: "THA",
+    label: "タイ",
+  },
+  {
+    value: "TWN",
+    label: "台湾",
+  },
+  {
+    value: "TJK",
+    label: "タジキスタン",
+  },
+  {
+    value: "TZA",
+    label: "タンザニア",
+  },
+  {
+    value: "KOR",
+    label: "韓国",
+  },
+  {
+    value: "CZE",
+    label: "チェコ",
+  },
+  {
+    value: "TCD",
+    label: "チャド",
+  },
+  {
+    value: "FRO",
+    label: "フェロー諸島",
+  },
+  {
+    value: "CAF",
+    label: "中央アフリカ",
+  },
+  {
+    value: "CHN",
+    label: "中国",
+  },
+  {
+    value: "TUN",
+    label: "チュニジア",
+  },
+  {
+    value: "CHL",
+    label: "チリ",
+  },
+  {
+    value: "TUV",
     label: "ツバル",
+  },
+  {
+    value: "DNK",
+    label: "デンマーク",
+  },
+  {
+    value: "TGO",
+    label: "トーゴ",
+  },
+  {
+    value: "TKL",
+    label: "トケラウ諸島",
+  },
+  {
+    value: "TTO",
+    label: "トリニダード・トバゴ",
+  },
+  {
+    value: "TKM",
+    label: "トルクメニスタン",
+  },
+  {
+    value: "TUR",
+    label: "トルコ",
+  },
+  {
+    value: "TON",
+    label: "トンガ",
+  },
+  {
+    value: "DEU",
+    label: "ドイツ",
+  },
+  {
+    value: "DOM",
+    label: "ドミニカ共和国",
+  },
+  {
+    value: "DMA",
+    label: "ドミニカ国",
+  },
+  {
+    value: "NGA",
+    label: "ナイジェリア",
+  },
+  {
+    value: "NRU",
+    label: "ナウル",
+  },
+  {
+    value: "NAM",
+    label: "ナミビア",
+  },
+  {
+    value: "ATA",
+    label: "南極大陸",
+  },
+  {
+    value: "NIU",
+    label: "ニウエ",
+  },
+  {
+    value: "NIC",
+    label: "ニカラグア",
+  },
+  {
+    value: "ESH",
+    label: "西サハラ",
+  },
+  {
+    value: "NER",
+    label: "ニジェール",
+  },
+  {
+    value: "NCL",
+    label: "ニューカレドニア",
+  },
+  {
+    value: "NZL",
+    label: "ニュージーランド",
+  },
+  {
+    value: "NPL",
+    label: "ネパール",
+  },
+  {
+    value: "NFK",
+    label: "ノーフォーク島",
+  },
+  {
+    value: "NOR",
+    label: "ノルウェー",
+  },
+  {
+    value: "HTI",
+    label: "ハイチ",
+  },
+  {
+    value: "HUN",
+    label: "ハンガリー",
+  },
+  {
+    value: "BHR",
+    label: "バーレーン",
+  },
+  {
+    value: "VAT",
+    label: "バチカン市国",
+  },
+  {
+    value: "VUT",
+    label: "バヌアツ",
+  },
+  {
+    value: "BHS",
+    label: "バハマ",
+  },
+  {
+    value: "BMU",
+    label: "バミューダ諸島",
+  },
+  {
+    value: "BRB",
+    label: "バルバドス",
+  },
+  {
+    value: "BGD",
+    label: "バングラディシュ",
+  },
+  {
+    value: "PAK",
+    label: "パキスタン",
+  },
+  {
+    value: "PAN",
+    label: "パナマ",
+  },
+  {
+    value: "PNG",
+    label: "パプアニューギニア",
+  },
+  {
+    value: "PLW",
+    label: "パラオ",
+  },
+  {
+    value: "PRY",
+    label: "パラグアイ",
+  },
+  {
+    value: "PSE",
+    label: "パレスチナ",
+  },
+  {
+    value: "TLS",
+    label: "東ティモール",
+  },
+  {
+    value: "PCN",
+    label: "ピトケアン島",
+  },
+  {
+    value: "FJI",
+    label: "フィジー諸島",
+  },
+  {
+    value: "PHL",
+    label: "フィリピン",
+  },
+  {
+    value: "FIN",
+    label: "フィンランド",
+  },
+  {
+    value: "IMN",
+    label: "マン島",
+  },
+  {
+    value: "FLK",
+    label: "フォークランド（マルビナス）諸島",
+  },
+  {
+    value: "FRA",
+    label: "フランス",
+  },
+  {
+    value: "GUF",
+    label: "フランス領ギアナ",
+  },
+  {
+    value: "PYF",
+    label: "フランス領ポリネシア",
+  },
+  {
+    value: "BTN",
+    label: "ブータン",
+  },
+  {
+    value: "BRA",
+    label: "ブラジル",
+  },
+  {
+    value: "BGR",
+    label: "ブルガリア",
+  },
+  {
+    value: "BFA",
+    label: "ブルキナファソ",
+  },
+  {
+    value: "BRN",
+    label: "ブルネイ",
+  },
+  {
+    value: "BDI",
+    label: "ブルンジ",
+  },
+  {
+    value: "PRI",
+    label: "プエルトリコ",
+  },
+  {
+    value: "ASM",
+    label: "米領サモア",
+  },
+  {
+    value: "VIR",
+    label: "米領バージン諸島",
+  },
+  {
+    value: "VNM",
+    label: "ベトナム",
+  },
+  {
+    value: "BEN",
+    label: "ベナン",
+  },
+  {
+    value: "VEN",
+    label: "ベネズエラ",
+  },
+  {
+    value: "BLR",
+    label: "ベラルーシ",
+  },
+  {
+    value: "BLZ",
+    label: "ベリーズ",
+  },
+  {
+    value: "BEL",
+    label: "ベルギー",
+  },
+  {
+    value: "PER",
+    label: "ペルー",
+  },
+  {
+    value: "HKG",
+    label: "香港",
+  },
+  {
+    value: "HND",
+    label: "ホンジュラス",
+  },
+  {
+    value: "BIH",
+    label: "ボスニア・ヘルツェゴビナ",
+  },
+  {
+    value: "BWA",
+    label: "ボツワナ",
+  },
+  {
+    value: "BOL",
+    label: "ボリビア",
+  },
+  {
+    value: "POL",
+    label: "ポーランド",
+  },
+  {
+    value: "PRT",
+    label: "ポルトガル",
+  },
+  {
+    value: "MHL",
+    label: "マーシャル諸島",
+  },
+  {
+    value: "MYT",
+    label: "マイヨット島",
+  },
+  {
+    value: "MAC",
+    label: "マカオ",
+  },
+  {
+    value: "MDG",
+    label: "マダガスカル",
+  },
+  {
+    value: "MWI",
+    label: "マラウイ",
+  },
+  {
+    value: "MLI",
+    label: "マリ",
+  },
+  {
+    value: "MLT",
+    label: "マルタ",
+  },
+  {
+    value: "MTQ",
+    label: "マルチニーク島",
+  },
+  {
+    value: "MYS",
+    label: "マレーシア",
+  },
+  {
+    value: "FSM",
+    label: "ミクロネシア連邦",
+  },
+  {
+    value: "MID",
+    label: "ミッドウェー諸島",
+  },
+  {
+    value: "ZAF",
+    label: "南アフリカ",
+  },
+  {
+    value: "SSD",
+    label: "南スーダン",
+  },
+  {
+    value: "MMR",
+    label: "ミャンマー",
+  },
+  {
+    value: "MEX",
+    label: "メキシコ",
+  },
+  {
+    value: "MUS",
+    label: "モーリシャス",
+  },
+  {
+    value: "MRT",
+    label: "モーリタニア",
+  },
+  {
+    value: "MOZ",
+    label: "モザンビーク",
+  },
+  {
+    value: "MCO",
+    label: "モナコ",
+  },
+  {
+    value: "MDV",
+    label: "モルディブ",
+  },
+  {
+    value: "MDA",
+    label: "モルドバ",
+  },
+  {
+    value: "MAR",
+    label: "モロッコ",
+  },
+  {
+    value: "MNG",
+    label: "モンゴル",
+  },
+  {
+    value: "MSR",
+    label: "モンセラット",
+  },
+  {
+    value: "MNE",
+    label: "モンテネグロ",
+  },
+  {
+    value: "JOR",
+    label: "ヨルダン",
+  },
+  {
+    value: "LAO",
+    label: "ラオス",
+  },
+  {
+    value: "LVA",
+    label: "ラトビア",
+  },
+  {
+    value: "LTU",
+    label: "リトアニア",
+  },
+  {
+    value: "LIE",
+    label: "リヒテンシュタイン",
+  },
+  {
+    value: "LBY",
+    label: "リビア",
+  },
+  {
+    value: "LBR",
+    label: "リベリア",
+  },
+  {
+    value: "ROU",
+    label: "ルーマニア",
+  },
+  {
+    value: "GIB",
+    label: "ジブラルタル",
+  },
+  {
+    value: "LUX",
+    label: "ルクセンブルク",
+  },
+  {
+    value: "RWA",
+    label: "ルワンダ",
+  },
+  {
+    value: "LSO",
+    label: "レソト",
+  },
+  {
+    value: "LBN",
+    label: "レバノン",
+  },
+  {
+    value: "REU",
+    label: "レユニオン",
+  },
+  {
+    value: "RUS",
+    label: "ロシア",
+  },
+  {
+    value: "WLF",
+    label: "ワリス・フテュナ諸島",
+  },
+  {
+    value: "ZZZ",
+    label: "その他の国・地域",
+  },
+  {
+    value: "JPN",
+    label: "日本",
+  },
+  {
+    value: "AUS",
+    label: "s",
+  },
+  {
+    value: "GRC",
+    label: "ギリシア",
+  },
+  {
+    value: "VAT",
+    label: "バチカン",
+  },
+  {
+    value: "BGD",
+    label: "バングラデシュ",
+  },
+  {
+    value: "SYC",
+    label: "セーシェル",
+  },
+  {
+    value: "FJI",
+    label: "フィジー",
+  },
+  {
+    value: "CPV",
+    label: "カーボベルデ",
+  },
+  {
+    value: "KNA",
+    label: "セントクリストファー・ネービス",
+  },
+  {
+    value: "SSD",
+    label: "南スーダン共和国",
+  },
+  {
+    value: "YEM",
+    label: "イエメン共和国",
+  },
+  {
+    value: "TJK",
+    label: "タジキスタン共和国",
+  },
+  {
+    value: "LSO",
+    label: "レソト王国",
+  },
+  {
+    value: "MHL",
+    label: "マーシャル諸島共和国",
+  },
+  {
+    value: "VUT",
+    label: "バヌアツ共和国",
+  },
+  {
+    value: "WSM",
+    label: "サモア独立国",
+  },
+  {
+    value: "KIR",
+    label: "キリバス共和国",
+  },
+  {
+    value: "PLW",
+    label: "パラオ共和国",
+  },
+  {
+    value: "TON",
+    label: "トンガ王国",
+  },
+  {
+    value: "ZZZ",
+    label: "ジブラルタル（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "ガーンジー（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "ジャージー（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "ケイマン諸島（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "キュラソー",
+  },
+  {
+    value: "ZZZ",
+    label: "モントセラト（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "マン島（英王室属領）",
+  },
+  {
+    value: "ZZZ",
+    label: "バミューダ（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "タークス・カイコス諸島（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "アンギラ（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "バージン諸島",
+  },
+  {
+    value: "ZZZ",
+    label: "ボネール、シント・ユースタティウス及びサバ",
+  },
+  {
+    value: "ZZZ",
+    label: "フォークランド諸島（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "(増加） ",
+  },
+  {
+    value: "NLD",
+    label: "オランダ",
+  },
+  {
+    value: "ZZZ",
+    label: "バージン諸島（英領）",
+  },
+  {
+    value: "ZZZ",
+    label: "チャンネル諸島（英王室属領）",
   },
 ];
