@@ -1,12 +1,25 @@
 .Layout {
   margin: 1.5em;
   margin-top: 72px;
+  // max-width: 1104px;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .LayoutContainer {
+    max-width: 1104px;
+  }
+}
+.Bg {
+  background-color: #060f1e;
+  height: 500px;
+  overflow-y: hidden;
 }
 .Header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 100;
   background: #202124;
   width: 100%;
   height: 56px;

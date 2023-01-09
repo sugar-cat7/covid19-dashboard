@@ -45,7 +45,7 @@ const _ChartCard: React.FC<Props> = ({
       const borderColor = `rgb(${getRandomInt(256)}, ${getRandomInt(
         256
       )}, ${getRandomInt(256)})`;
-      const backgroundColor = borderColor.replace(")", "") + ", 0.5)";
+      const backgroundColor = borderColor.replace(")", "") + ", 0.7)";
       return {
         label: l,
         data: data

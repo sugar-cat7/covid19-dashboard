@@ -28,11 +28,18 @@ export const options = {
   plugins: {
     legend: {
       position: "top" as const,
+      labels: {
+        padding: 10,
+        color: "rgb(255, 255, 255, 0.8)",
+      },
     },
     title: {
       display: true,
       text: "各国の累計感染者数",
       color: "rgb(255, 255, 255, 0.8)",
+      font: {
+        size: 18,
+      },
     },
     labels: {
       color: "rgb(255, 255, 255, 0.8)",
