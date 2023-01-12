@@ -5,9 +5,7 @@ import styles from "./Layout.module.scss";
 type Props = {
   children: React.ReactNode;
 };
-const DynamicComponent = dynamic(() => import("../components/Map"), {
-  ssr: false,
-});
+
 export const Layout: React.FC<Props> = ({ children }) => {
   return (
     <>
