@@ -1,0 +1,14 @@
+go 1.19
+
+use (
+./batch-get-each-country
+./data-init
+./batch-get-news
+./infected-patients
+./news
+./total-news-num
+./insert_table
+./batch-tweets-search
+./tweets
+./manual-get-each-country-function
+)

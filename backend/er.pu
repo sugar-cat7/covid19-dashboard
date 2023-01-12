@@ -1,0 +1,86 @@
+@startuml
+skin rose
+' hide the spot
+hide circle
+
+' avoid problems with angled crows feet
+skinparam linetype ortho
+
+entity "country" as cm {
+  *id : number <<PK>>
+  --
+  country_code : text
+  country_name : text
+}
+
+entity "country_languages" as clm {
+  *id : number <<PK>>
+  --
+  country_id : number <<FK>>
+  language_id : number <<FK>>
+}
+
+entity "languages" as lm {
+  *id : number <<PK>>
+  --
+  language_code : text
+  language_name : text
+}
+
+
+entity "covid_infected_country" as cic {
+  *id : number <<PK>>
+  --
+  date : date
+  data_name : text
+  infected_num : number
+  decreased_num : number
+}
+
+entity "covid_news" as cn {
+  *id : number <<PK>>
+  --
+  *search_id : number <<FK>>
+  *source_id : number <<FK>>
+  country_code : text <<FK>>
+  title : text
+  url : text
+  urlToImage: text
+  publishedAt : datetime
+}
+
+entity "covid_news_total" as cnt {
+  *id : number <<PK>>
+  --
+  total_news : number
+  search_from : datetime
+  search_to : datetime
+}
+
+entity "covid_news_source" as cns {
+  *id : number <<PK>>
+  --
+  source_name : text
+  language : text
+  country : text
+}
+
+entity "tweets" as t {
+  *id : number <<PK>>
+  --
+  tweet_id : text
+  username : text
+  content : text
+  content : text
+  lang_code : text
+  publishedAt : datetime
+}
+
+t ||..|| lm
+cn ||..|| cm
+cm ||..|| cic
+cn ||..|| cns
+cnt ||..o{ cn
+cm ||..{ clm
+lm ||..{ clm
+@enduml

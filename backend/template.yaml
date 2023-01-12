@@ -1,0 +1,165 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  sam-app-ca-20-deliverable
+
+  Sample SAM Template for sam-app-ca-20-deliverable
+
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 5
+
+Resources:
+  BatchGetNewsFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: batch-get-news/
+      Handler: batch-get-news
+      Runtime: go1.x
+      Architectures:
+        - x86_64
+      Events:
+        ScheduleEvent:
+          Type: Schedule
+          Properties:
+            Schedule: cron(0 1 ? * TUE *)
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          PARAM1: VALUE
+
+      Timeout: 900
+  BatchGetEachCountryFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: batch-get-each-country/
+      Handler: batch-get-each-country
+      Runtime: go1.x
+      Architectures:
+        - x86_64
+      Events:
+        ScheduleEvent:
+          Type: Schedule
+          Properties:
+            Schedule: cron(0 1 ? * TUE *)
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          PARAM1: VALUE
+
+      Timeout: 900
+  #Amazon API Gatewayのタイムアウト設定は最大29秒までなので使うなら要修正ではある
+  InfectedPatientsFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: infected-patients/
+      Handler: infected-patients
+      Runtime: go1.x
+      Architectures:
+        - x86_64
+      Events:
+        CatchAll:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /infected_patients
+            Method: GET
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          PARAM1: VALUE
+
+  NewsFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: news/
+      Handler: news
+      Runtime: go1.x
+      Architectures:
+        - x86_64
+      Events:
+        CatchAll:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /news
+            Method: GET
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          PARAM1: VALUE
+
+  TotalNewsNumFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: total-news-num/
+      Handler: total-news-num
+      Runtime: go1.x
+      Architectures:
+        - x86_64
+      Events:
+        CatchAll:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /news/num
+            Method: GET
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          PARAM1: VALUE
+
+  BatchTweetsSearchFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: batch-tweets-search/
+      Handler: batch-tweets-search
+      Runtime: go1.x
+      Architectures:
+        - x86_64
+      Events:
+        ScheduleEvent:
+          Type: Schedule
+          Properties:
+            Schedule: rate(30 minutes)
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          PARAM1: VALUE
+
+      Timeout: 900
+  TweetsFunction:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: tweets/
+      Handler: tweets
+      Runtime: go1.x
+      Architectures:
+        - x86_64
+      Events:
+        CatchAll:
+          Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
+          Properties:
+            Path: /tweets
+            Method: GET
+      Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
+        Variables:
+          PARAM1: VALUE
+
+Outputs:
+  # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
+  # Find out more about other implicit resources you can reference within SAM
+  # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
+  CountryAPI:
+    Description: "API Gateway endpoint URL for Prod environment for First Function"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
+  BatchGetEachCountryFunction:
+    Description: "BatchGetEachCountryFunction ARN"
+    Value: !GetAtt BatchGetEachCountryFunction.Arn
+  BatchGetNewsFunction:
+    Description: "BatchGetEachCountryFunction ARN"
+    Value: !GetAtt BatchGetNewsFunction.Arn
+  InfectedPatientsFunction:
+    Description: "InfectedPatientsFunction ARN"
+    Value: !GetAtt InfectedPatientsFunction.Arn
+  NewsFunction:
+    Description: "NewsFunction ARN"
+    Value: !GetAtt NewsFunction.Arn
+  TotalNewsNumFunction:
+    Description: "TotalNewsNumFunction ARN"
+    Value: !GetAtt TotalNewsNumFunction.Arn
+  BatchTweetsSearchFunction:
+    Description: "BatchTweetsSearchFunction ARN"
+    Value: !GetAtt BatchTweetsSearchFunction.Arn
