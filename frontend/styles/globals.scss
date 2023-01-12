@@ -103,6 +103,13 @@ a {
   }
 }
 
+main
+  > div
+  > header
+  > details
+  > div
+  > div.Home_Select__JT215.css-b62m3t-container
+  > div,
 main > header > details > div > div.Home_Select__JT215 > div {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.25);
@@ -113,6 +120,12 @@ main > header > details > div > div.Home_Select__JT215 > div {
     box-shadow: none;
   }
 }
+main
+  > div
+  > header
+  > details
+  > div
+  > div.Home_Select__JT215.css-b62m3t-container,
 main > header > details > div > div.Home_Select__JT215 {
   box-shadow: none;
   &:hover {
