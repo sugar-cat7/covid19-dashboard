@@ -1,0 +1,587 @@
+[
+  {
+    "publishedAt": "2022-10-17T00:00:00Z",
+    "infectedNum": 24021696,
+    "deceasedNum": 208678,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-10-17T00:00:00Z",
+    "infectedNum": 21772967,
+    "deceasedNum": 45890,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-10-17T00:00:00Z",
+    "infectedNum": 25131505,
+    "deceasedNum": 28851,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-10-17T00:00:00Z",
+    "infectedNum": 1032844,
+    "deceasedNum": 2346,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-10-17T00:00:00Z",
+    "infectedNum": 96952191,
+    "deceasedNum": 1065109,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-10-24T00:00:00Z",
+    "infectedNum": 24079325,
+    "deceasedNum": 209227,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-10-24T00:00:00Z",
+    "infectedNum": 1035096,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-10-24T00:00:00Z",
+    "infectedNum": 97198630,
+    "deceasedNum": 1067686,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-10-24T00:00:00Z",
+    "infectedNum": 25311636,
+    "deceasedNum": 29000,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-10-24T00:00:00Z",
+    "infectedNum": 22008129,
+    "deceasedNum": 46309,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-10-31T00:00:00Z",
+    "infectedNum": 24122909,
+    "deceasedNum": 209939,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-10-31T00:00:00Z",
+    "infectedNum": 1037347,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-10-31T00:00:00Z",
+    "infectedNum": 97450639,
+    "deceasedNum": 1070266,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-10-31T00:00:00Z",
+    "infectedNum": 25557309,
+    "deceasedNum": 29176,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-10-31T00:00:00Z",
+    "infectedNum": 22295592,
+    "deceasedNum": 46659,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-11-07T00:00:00Z",
+    "infectedNum": 97741764,
+    "deceasedNum": 1072594,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-11-07T00:00:00Z",
+    "infectedNum": 22706566,
+    "deceasedNum": 47069,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-11-07T00:00:00Z",
+    "infectedNum": 25856910,
+    "deceasedNum": 29390,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-07T00:00:00Z",
+    "infectedNum": 1039353,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-11-07T00:00:00Z",
+    "infectedNum": 24155154,
+    "deceasedNum": 210680,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-14T00:00:00Z",
+    "infectedNum": 24179656,
+    "deceasedNum": 211417,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-14T00:00:00Z",
+    "infectedNum": 1041027,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-11-14T00:00:00Z",
+    "infectedNum": 97997389,
+    "deceasedNum": 1074485,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-11-14T00:00:00Z",
+    "infectedNum": 26217994,
+    "deceasedNum": 29709,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-14T00:00:00Z",
+    "infectedNum": 23216265,
+    "deceasedNum": 47627,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-11-21T00:00:00Z",
+    "infectedNum": 24203873,
+    "deceasedNum": 212086,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-21T00:00:00Z",
+    "infectedNum": 1042573,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-11-21T00:00:00Z",
+    "infectedNum": 98308990,
+    "deceasedNum": 1077031,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-11-21T00:00:00Z",
+    "infectedNum": 26581856,
+    "deceasedNum": 30066,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-21T00:00:00Z",
+    "infectedNum": 23814209,
+    "deceasedNum": 48338,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-11-28T00:00:00Z",
+    "infectedNum": 24591146,
+    "deceasedNum": 212585,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-28T00:00:00Z",
+    "infectedNum": 98568849,
+    "deceasedNum": 1079197,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-11-28T00:00:00Z",
+    "infectedNum": 26959843,
+    "deceasedNum": 30413,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-11-28T00:00:00Z",
+    "infectedNum": 24519674,
+    "deceasedNum": 49281,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-11-28T00:00:00Z",
+    "infectedNum": 1043931,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-12-05T00:00:00Z",
+    "infectedNum": 24251661,
+    "deceasedNum": 213037,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-05T00:00:00Z",
+    "infectedNum": 1044778,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-12-05T00:00:00Z",
+    "infectedNum": 98972375,
+    "deceasedNum": 1081431,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-12-05T00:00:00Z",
+    "infectedNum": 27331250,
+    "deceasedNum": 30769,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-05T00:00:00Z",
+    "infectedNum": 25268073,
+    "deceasedNum": 50461,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-12-12T00:00:00Z",
+    "infectedNum": 27754149,
+    "deceasedNum": 31099,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-12T00:00:00Z",
+    "infectedNum": 26132159,
+    "deceasedNum": 51829,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-12-12T00:00:00Z",
+    "infectedNum": 99413504,
+    "deceasedNum": 1084439,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-12-12T00:00:00Z",
+    "infectedNum": 1045515,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-12-12T00:00:00Z",
+    "infectedNum": 24281498,
+    "deceasedNum": 213508,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-19T00:00:00Z",
+    "infectedNum": 24318154,
+    "deceasedNum": 213892,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-19T00:00:00Z",
+    "infectedNum": 1046170,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-12-19T00:00:00Z",
+    "infectedNum": 99892513,
+    "deceasedNum": 1087410,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-12-19T00:00:00Z",
+    "infectedNum": 28214915,
+    "deceasedNum": 31434,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-19T00:00:00Z",
+    "infectedNum": 27187394,
+    "deceasedNum": 53499,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2022-12-26T00:00:00Z",
+    "infectedNum": 24365623,
+    "deceasedNum": 213996,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-26T00:00:00Z",
+    "infectedNum": 1046606,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2022-12-26T00:00:00Z",
+    "infectedNum": 100374019,
+    "deceasedNum": 1090204,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2022-12-26T00:00:00Z",
+    "infectedNum": 28684600,
+    "deceasedNum": 31832,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2022-12-26T00:00:00Z",
+    "infectedNum": 28343661,
+    "deceasedNum": 55542,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2023-01-02T00:00:00Z",
+    "infectedNum": 29139535,
+    "deceasedNum": 32272,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2023-01-02T00:00:00Z",
+    "infectedNum": 24365688,
+    "deceasedNum": 213997,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  },
+  {
+    "publishedAt": "2023-01-02T00:00:00Z",
+    "infectedNum": 1047065,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2023-01-02T00:00:00Z",
+    "infectedNum": 100752629,
+    "deceasedNum": 1092674,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2023-01-02T00:00:00Z",
+    "infectedNum": 29375723,
+    "deceasedNum": 57721,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2023-01-10T00:00:00Z",
+    "infectedNum": 30647859,
+    "deceasedNum": 60411,
+    "country": {
+      "countryName": "日本",
+      "countryCode": "JPN"
+    }
+  },
+  {
+    "publishedAt": "2023-01-10T00:00:00Z",
+    "infectedNum": 29599747,
+    "deceasedNum": 32669,
+    "country": {
+      "countryName": "韓国",
+      "countryCode": "KOR"
+    }
+  },
+  {
+    "publishedAt": "2023-01-10T00:00:00Z",
+    "infectedNum": 101285347,
+    "deceasedNum": 1096751,
+    "country": {
+      "countryName": "米国",
+      "countryCode": "USA"
+    }
+  },
+  {
+    "publishedAt": "2023-01-10T00:00:00Z",
+    "infectedNum": 1047614,
+    "deceasedNum": 2348,
+    "country": {
+      "countryName": "アラブ首長国連邦",
+      "countryCode": "ARE"
+    }
+  },
+  {
+    "publishedAt": "2023-01-10T00:00:00Z",
+    "infectedNum": 24442197,
+    "deceasedNum": 214723,
+    "country": {
+      "countryName": "英国",
+      "countryCode": "GBR"
+    }
+  }
+]
